@@ -1,0 +1,120 @@
+
+********************************************************************************
+Product   : Virtuoso(R) STREAM Out
+Program   : @(#)$CDS: pipo.exe version 5.1.0 04/03/2007 08:38 (cicln01) $
+SubVersion: sub-version 5.10.41.500.4.83
+Started at: 06-May-2019  14:58:56
+User Name : soan
+Host Name : machaon
+Directory : /home/soan/Rundir/Cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+
+     1. translating cellview (CELL layout)
+     2. translating cellview (GAN2 layout)
+WARNING (415): Duplicate cell name found in design. Renaming `Cell_korvet:GAN2' to `GAN2_3'.
+     3. translating cellview (GAN2_3 layout_t)
+WARNING (335): Stream layer rule for the layer-purpose pair `place_cell:drawing' is nil. All objects on this LPP will be dropped.
+WARNING (347): Failed to get the Stream layer rules for the layer-purpose pair `prBoundary:drawing'. All objects on this LPP will be dropped.
+
+			Individual Cell Statistics
+
+CellView          Rectangles Polygons   Paths Ellipses Labels Instances Arrays  Nodes
+*************************************************************************************
+CELL/layout               11        5       0       0       0       0       0      0
+GAN2/layout               19        3       0       0      10       0       0      0
+GAN2_3/layout_t            0        0       0       0       0       2       0      0
+
+
+                    Statistics Of Layers
+
+
+Cadence    Cadence    Stream   Stream
+ Layer     Purpose    Layer   Datatype Rectangles Polygons Paths  Ellipses  Labels   Nodes
+-------------------------------------------------------------------------------------------
+Cont       drawing    60        0         9        0        0        0        0        0       
+Metal_L    drawing    73        0         0        0        0        0        10       0       
+NPlus      drawing    54        0         1        0        0        0        0        0       
+PPlus      drawing    51        0         1        0        0        0        0        0       
+PMinus     drawing    50        0         1        0        0        0        0        0       
+Nwell      drawing    19        0         1        0        0        0        0        0       
+Metal1     drawing    70        0         10       3        0        0        0        0       
+Pwell      drawing    16        0         1        0        0        0        0        0       
+NMinus     drawing    53        0         1        0        0        0        0        0       
+Poly       drawing    32        0         0        4        0        0        0        0       
+Active     drawing    9         0         1        1        0        0        0        0       
+Pguard     drawing    24        0         4        0        0        0        0        0       
+
+
+   Summary Of Objects
+
+------------------------
+      30 Rectangles
+       8 Polygons
+       0 Paths
+       0 Ellipses
+      10 Labels
+       2 Instances
+       0 Arrays
+       3 Cells
+       0 Nodes
+
+
+00:00:01 Elapsed time
+00:00:01 CPU time
+
+    8154 Kbytes of memory
+
+*** There were 0 error and 3 warning messages ***
+
+The setup file's contents :
+
+streamOutKeys = list(nil
+	'runDir			"."
+	'libName		"Cell_korvet"
+	'primaryCell		"GAN2"
+	'viewName		"layout_t"
+	'outFile		"GAN2.gds"
+	'scale			0.001000
+	'units			"micron"
+	'compression		"none"
+	'hierDepth		32
+	'convertToGeo		nil
+	'maxVertices		200
+	'refLib			nil
+	'libVersion		"5.0"
+	'checkPolygon		nil
+	'snapToGrid		nil
+	'simMosaicToArray	t
+	'caseSensitivity	"preserve"
+	'textCaseSensitivity	"preserve"
+	'lineToZeroPath		"path"
+	'convertDot	"ignore"
+	'rectToBox		nil
+	'convertPathToPoly	nil
+	'keepPcell	nil
+	'replaceBusBitChar	nil
+	'useParentXYforText	nil
+	'reportPrecision	nil
+	'runQuiet		nil
+	'comprehensiveLog		nil
+	'ignorePcellEvalFail		nil
+	'errFile		"PIPO.LOG"
+	'NOUnmappingLayerWarning		nil
+	'techFileChoice		nil
+	'pcellSuffix		"DbId"
+	'respectGDSIILimits		nil
+	'dumpPcellInfo		nil
+	'genListHier		nil
+	'cellMapTable		""
+	'layerTable		""
+	'textFontTable		""
+	'convertPin		"geometry"
+	'pinInfo		0
+	'pinTextMapTable	""
+	'propMapTable		""
+	'propSeparator		","
+	'userSkillFile		""
+	'rodDir			""
+	'refLibList		""
+)

@@ -1,0 +1,103 @@
+
+********************************************************************************
+Product   : Virtuoso(R) STREAM Out
+Program   : @(#)$CDS: pipo.exe version 5.1.0 04/03/2007 08:38 (cicln01) $
+SubVersion: sub-version 5.10.41.500.4.83
+Started at: 06-May-2019  15:03:26
+User Name : soan
+Host Name : machaon
+Directory : /home/soan/Rundir/Cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+
+     1. translating cellview (tran_test layout)
+
+			Individual Cell Statistics
+
+CellView          Rectangles Polygons   Paths Ellipses Labels Instances Arrays  Nodes
+*************************************************************************************
+tran_test/layout           4        0       0       0       0       0       0      0
+
+
+                    Statistics Of Layers
+
+
+Cadence    Cadence    Stream   Stream
+ Layer     Purpose    Layer   Datatype Rectangles Polygons Paths  Ellipses  Labels   Nodes
+-------------------------------------------------------------------------------------------
+Active     drawing    9         0         1        0        0        0        0        0       
+Poly       drawing    32        0         3        0        0        0        0        0       
+
+
+   Summary Of Objects
+
+------------------------
+       4 Rectangles
+       0 Polygons
+       0 Paths
+       0 Ellipses
+       0 Labels
+       0 Instances
+       0 Arrays
+       1 Cells
+       0 Nodes
+
+
+00:00:00 Elapsed time
+00:00:01 CPU time
+
+    8154 Kbytes of memory
+
+*** There were no error or warning message ***
+
+The setup file's contents :
+
+streamOutKeys = list(nil
+	'runDir			"."
+	'libName		"Test_lib"
+	'primaryCell		"tran_test"
+	'viewName		"layout"
+	'outFile		"tran_test.gds"
+	'scale			0.001000
+	'units			"micron"
+	'compression		"none"
+	'hierDepth		32
+	'convertToGeo		nil
+	'maxVertices		200
+	'refLib			nil
+	'libVersion		"5.0"
+	'checkPolygon		nil
+	'snapToGrid		nil
+	'simMosaicToArray	t
+	'caseSensitivity	"preserve"
+	'textCaseSensitivity	"preserve"
+	'lineToZeroPath		"path"
+	'convertDot	"ignore"
+	'rectToBox		nil
+	'convertPathToPoly	nil
+	'keepPcell	nil
+	'replaceBusBitChar	nil
+	'useParentXYforText	nil
+	'reportPrecision	nil
+	'runQuiet		nil
+	'comprehensiveLog		nil
+	'ignorePcellEvalFail		nil
+	'errFile		"PIPO.LOG"
+	'NOUnmappingLayerWarning		nil
+	'techFileChoice		nil
+	'pcellSuffix		"DbId"
+	'respectGDSIILimits		nil
+	'dumpPcellInfo		nil
+	'genListHier		nil
+	'cellMapTable		""
+	'layerTable		""
+	'textFontTable		""
+	'convertPin		"geometry"
+	'pinInfo		0
+	'pinTextMapTable	""
+	'propMapTable		""
+	'propSeparator		","
+	'userSkillFile		""
+	'rodDir			""
+	'refLibList		""
+)
