@@ -2,4 +2,4 @@
 GDSII file reader materials
 
 
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/ashtanyuk/GDSII-read)
+![GitHub repo size](https://img.shields.io/github/repo-size/ashtanyuk/GDSII-read)
